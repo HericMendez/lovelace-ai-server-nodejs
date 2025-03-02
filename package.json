@@ -1,0 +1,21 @@
+{
+  "name": "lovelace-ai-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.33",
+    "@langchain/core": "^0.3.42",
+    "@langchain/langgraph": "^0.2.11",
+    "axios": "^1.8.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
