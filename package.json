@@ -16,6 +16,7 @@
     "@langchain/community": "^0.3.33",
     "@langchain/core": "^0.3.42",
     "@langchain/langgraph": "^0.2.11",
+    "@vercel/node": "^5.1.10",
     "axios": "^1.8.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",

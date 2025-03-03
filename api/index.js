@@ -1,3 +1,5 @@
-import {app as server} from "../server";
+import { app } from "../server";
 
-export default server;
+export default function handler(req, res) {
+  return app(req, res);
+}
