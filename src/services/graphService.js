@@ -3,7 +3,7 @@ import { createGraph, runGraph } from "../controllers/graphController.js";
 const graphService = async (req, res) => {
   try {
     const inputData = req.body;
-    console.log("inputData ==> ", inputData);
+    console.log("inputData ==> ", inputData.messages[0]);
 
     const graph = createGraph();
     const result = await runGraph(graph, inputData);

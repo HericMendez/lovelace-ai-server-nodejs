@@ -1,5 +1,5 @@
 import { TogetherAI } from '@langchain/community/llms/togetherai';
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
 dotenv.config();
 

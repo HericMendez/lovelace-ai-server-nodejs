@@ -4,6 +4,7 @@ import  chatWithModel  from "../controllers/chainController.js";
 
 const chainService = async (req, res) => {
   const { messages } = req.body;
+  console.log("messages ==> ", messages);
 
   try {
     const response = await chatWithModel(messages);

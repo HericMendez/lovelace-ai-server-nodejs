@@ -1,5 +1,11 @@
 import axios from "axios";
-import { TOGETHER_AI_API_KEY, TOGETHER_AI_MODEL, TEMP, MAX_TOKENS, TOGETHER_AI_API_URL } from "../config/config.js";
+import {
+  TOGETHER_AI_API_KEY,
+  TOGETHER_AI_API_URL,
+  TOGETHER_AI_MODEL,
+  TEMP,
+  MAX_TOKENS,
+} from "../config/config.js";
 import Graph from "../models/Graph.js";
 
 
