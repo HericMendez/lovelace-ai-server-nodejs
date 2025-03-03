@@ -19,4 +19,4 @@ app.listen(port, () => {
 Ping test(GET):       http://localhost:3000/api/ping`);
 });
 
-export { app };
+export default app;
