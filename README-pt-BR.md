@@ -29,7 +29,7 @@ Desenvolvido com React no front-end e Node.js no back-end, Lovelace busca tornar
 3. **Instale as dependências e inicie a aplicação:**
    ```bash
    npm install
-   npm start
+   npm run dev
     ```
 ## 2. Instalação e Execução do Front-end
 Para usar o modelo de IA em uma interface de chat, você precisa instalar o front-end localmente.

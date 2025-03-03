@@ -18,3 +18,5 @@ app.listen(port, () => {
   console.log(`Servidor rodando em:  http://localhost:${port}
 Ping test(GET):       http://localhost:3000/api/ping`);
 });
+
+export { app };

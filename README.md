@@ -28,7 +28,7 @@ Developed with React on the front-end and Node.js on the back-end, Lovelace aims
 3. **Install dependencies and start the application:**
    ```bash
    npm install
-   npm start
+   npm run dev
     ```
 
 ## 3. Front-end Installation and Execution
