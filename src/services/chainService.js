@@ -1,6 +1,4 @@
-
-  // controllers/chainService.js
-import  chatWithModel  from "../controllers/chainController.js";
+import chatWithModel from "../controllers/chainController.js";
 
 const chainService = async (req, res) => {
   const { messages } = req.body;
@@ -8,7 +6,8 @@ const chainService = async (req, res) => {
 
   try {
     const response = await chatWithModel(messages);
-    res.json({ response });
+    console.log("response ==> ", response);
+    res.json({ response }); //this returns a simple object; graphService returns a whole array
   } catch (error) {
     console.error("Erro ao comunicar com o modelo:", error);
     res.status(500).json({ error: error.message });
