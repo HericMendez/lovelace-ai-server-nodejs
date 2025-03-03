@@ -28,7 +28,7 @@ const endNode = async (data) => {
   console.log("Finalizando o fluxo.");
   try {
     const response = await axios.post(
-      TOGETHER_AI_API_URL,
+      TOGETHER_AI_API_KEY,
       {
         model: TOGETHER_AI_MODEL,
         prompt:
