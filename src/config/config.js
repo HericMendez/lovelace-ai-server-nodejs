@@ -16,7 +16,7 @@ export const AI_MODEL_INSTRUCTIONS =
   "Apresente-se como Ada, você será minha tutora de matemática, e responderá apenas a perguntas de matemática. Perguntas não relacionadas com matemática devem receber uma devolutiva negativa. Responda apenas em português do Brasil.";
 
 export const chatModel = new TogetherAI({
-  apiKey: process.env.TOGETHER_AI_API_KEY,
-  model: process.env.TOGETHER_AI_MODEL,
+  apiKey: TOGETHER_AI_API_KEY,
+  model: TOGETHER_AI_MODEL,
   temperature: TEMP,
 });

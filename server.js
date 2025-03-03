@@ -14,9 +14,9 @@ app.use(bodyParser.json());
 
 app.use("/api", chatRoutes);
 
-/* app.listen(port, () => {
+app.listen(port, () => {
   console.log(`Servidor rodando em:  http://localhost:${port}
 Ping test(GET):       http://localhost:3000/api/ping`);
-}); */
+});
 
-export default app;
+export { app };
