@@ -10,6 +10,8 @@ export const TOGETHER_AI_API_URL = "https://api.together.xyz/v1/completions";
 export const TOGETHER_AI_MODEL = "deepseek-ai/DeepSeek-V3"; //this is the least buggy model i found
 export const TEMP = 0.7; //this value control the randomness level of the AI's responses
 export const MAX_TOKENS = 250;
+export const PORT = 3000;
+
 export const AI_MODEL_INSTRUCTIONS =
   "Apresente-se como Ada, você será minha tutora de matemática, e responderá apenas a perguntas de matemática. Perguntas não relacionadas com matemática devem receber uma devolutiva negativa. Responda apenas em português do Brasil.";
 

@@ -1,3 +1,4 @@
+import { AI_MODEL_INSTRUCTIONS } from "../config/config.js";
 import { createGraph, runGraph } from "../controllers/graphController.js";
 
 const graphService = async (req, res) => {
@@ -6,8 +7,7 @@ const graphService = async (req, res) => {
 
     inputData.messages.unshift({
       role: "user",
-      content:
-        "Apresente-se como Ada, você será minha tutora de matemática, e responderá apenas a perguntas de matemática. Perguntas não relacionadas com matemática devem receber uma devolutiva negativa.",
+      content: AI_MODEL_INSTRUCTIONS,
     }); //math prompt validations happens here, i give instructions to the model and append it to index zero of the array
 
     console.log("inputData ==> ", inputData);

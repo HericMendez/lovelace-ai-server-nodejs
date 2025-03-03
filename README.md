@@ -34,7 +34,7 @@ Developed with React on the front-end and Node.js on the back-end, Lovelace aims
 ## 3. Front-end Installation and Execution
 
 To use the AI model in a chat interface, you need to install the front-end locally.
-Repository and instructions: [lovelace-ai-server](https://github.com/HericMendez/lovelace-ai-server-nodejs)
+Repository and instructions: [lovelace-ai-client](https://github.com/HericMendez/lovelace-ai-client-reactjs)
 If you prefer to test without the front-end, follow the step below.
 
 ## 4. Usage and Routes
